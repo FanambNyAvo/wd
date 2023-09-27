@@ -23,6 +23,11 @@ h1 {
     padding: 5rem;
 }
 
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+}
 img {
     width: 150px;
     height: auto;
