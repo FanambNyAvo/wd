@@ -1,28 +1,40 @@
+/* Limit the width of the main element */
+main {
+  max-width: 840px;
+}
+
+/* CSS for the aside element */
 aside {
-    margin: 1rem; /* Add margin */
-    border: 1px solid #ccc; /* Add border */
-    padding: 1rem; /* Add padding */
-    background-color: #f0f0f0; /* Add background color */
-    color: #333; /* Add text color */
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
 }
 
+/* Set the width and height of images inside the aside */
 aside img {
-    width: 200px; /* Set width to 200 pixels */
-    height: auto; /* Maintain aspect ratio */
+  width: 200px;
+  height: auto; /* Maintain aspect ratio */
 }
 
+/* Exclusive CSS for the profile image inside the main element */
 main img {
-    width: 150px; /* Update the main img selector */
-    height: auto;
+  width: 150px;
+  height: auto;
+  /* Additional styling for the profile image in the main content */
 }
 
+/* Remove padding from all paragraphs */
 p {
-    padding: 0; /* Set paragraph padding to 0 pixels */
+  padding: 0;
 }
 
+/* CSS for the footer element */
 footer {
-    margin-top: 1rem; /* Add margin at the top of the footer */
-    border-top: 1px solid #ccc; /* Add a line separator at the top */
-    text-align: center; /* Center-align the text */
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
 }
-
