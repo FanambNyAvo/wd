@@ -6,11 +6,12 @@ nav {
 nav a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
   color: steelblue;
+  padding: .5rew
 }
 
 img {
@@ -26,7 +27,7 @@ p {
 }
 
 main {
-  max-width: 840px;
+  max-width: 648px;
 }
 
 box {
@@ -45,6 +46,7 @@ aside {
   background-color: #eee;
   color: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -56,6 +58,9 @@ main img {
   float: right;
   width: 150px;
   height: auto;
+  border: 1px solid steelblue
+  padding: 2px
+ 
 }
 
 p {
