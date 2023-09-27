@@ -1,9 +1,8 @@
-/* Limit the width of the main element */
+
 main {
   max-width: 840px;
 }
 
-/* CSS for the aside element */
 aside {
   width: 20rem;
   margin: 1rem;
@@ -14,25 +13,25 @@ aside {
   text-align: center;
 }
 
-/* Set the width and height of images inside the aside */
+
 aside img {
   width: 200px;
   height: auto; /* Maintain aspect ratio */
 }
 
-/* Exclusive CSS for the profile image inside the main element */
+
 main img {
   width: 150px;
   height: auto;
-  /* Additional styling for the profile image in the main content */
+ 
 }
 
-/* Remove padding from all paragraphs */
+
 p {
   padding: 0;
 }
 
-/* CSS for the footer element */
+
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
