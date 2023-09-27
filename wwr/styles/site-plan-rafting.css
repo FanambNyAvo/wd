@@ -15,16 +15,16 @@ h4 {
     font-family: 'Roboto Condensed';
 }
 :root {
-        --primary-color:#1E5EFF ;
-        --secondary-color: #FFFB12;
-        --accent1-color: #3CBB18;
-        --accent2-color: #228C5B;
+  --primary-color: #3498db; /* Couleur principale */
+  --secondary-color: #e74c3c; /* Couleur secondaire */
+  --accent1-color: #27ae60; /* Accent 1 */
+  --accent2-color: #f39c12; /* Accent 2 */
 
-        --heading-font: 'Croissant One', serif;
-        --paragraph-font: '______', serif;
+  --heading-font: 'Roboto', sans-serif; /* Police pour les titres */
+  --paragraph-font: 'Open Sans', sans-serif; /* Police pour les paragraphes */
 
-        --nav-background-color: #XXXXXX;
-        --nav-link-color: #XXXXXX;
-        --nav-hover-link-color: #XXXXXX;
-        --nav-hover-background-color: #XXXXXX;
+  --nav-background-color: #333; /* Couleur de fond de la navigation */
+  --nav-link-color: #fff; /* Couleur des liens de navigation */
+  --nav-hover-link-color: #e74c3c; /* Couleur des liens de navigation au survol */
+  --nav-hover-background-color: #444; /* Couleur de fond des liens de navigation au survol */
 }
