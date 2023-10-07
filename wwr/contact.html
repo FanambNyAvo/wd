@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting Adventures</title>
+    <meta name="description" content="Contact Us">
+    <meta name="author" content="Rakotomihaja Fanamby Ny Avo">
+    <link rel="stylesheet" type="text/css" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">index</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> White water rafting</p>
+            <p><strong>Phone:</strong> 999-999-999</p>
+            <p><strong>Email:</strong> whitewaterrafting.com</p>
+        </section>
+            <div class="map">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5484.364874729698!2d6.4988154572401955!3d44.97345212848753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srafting!5e0!3m2!1sfr!2smg!4v1696699275702!5m2!1sfr!2smg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+            <h2>Our Team</h2>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p><strong>John Doe</strong><br>Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p><strong>Jane Smith</strong><br>Instructor</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p><strong>Mike Johnson</strong><br>Guide</p>
+            </div>
+
+        
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="purpose">Purpose of Message:</label>
+                <select id="purpose" name="purpose">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Reservation Question">Reservation Question</option>
+                    <option value="Website Suggestion">Website Suggestion</option>
+                </select>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Whitewater Rafting Adventures | Rakotomihaja Fanamby Ny Avo</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
