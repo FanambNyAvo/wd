@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+:root {
+    --primary-color: #1E5EFF;
+    --secondary-color: #FFFB12;
+    --text-color: #333;
+    --background-color: #19dc46;
+}
+
+h1, h2, p {
+    color: var(--text-color);
+    font-family: 'Roboto', Arial, serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.sociallinks a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.social-icon {
+    width: 20px; 
+    height: 20px; 
+}
+
+
+.footer {
+    position: relative;
+}
+
+.sociallinks {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
